@@ -7,7 +7,7 @@ import Button from "../button/button.component";
 
 const defaultFormFields = {
   displayName: "",
-  email: "",
+  email: "",                                              
   password: "",
   confirmPassword: "",
 };
