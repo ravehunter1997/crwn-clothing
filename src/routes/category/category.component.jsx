@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { CategoriesContext } from "../../context/categories.context";
 import { useParams } from "react-router-dom";
 import ProductCard from "../../components/product-card/product-card.component";

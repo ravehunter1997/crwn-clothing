@@ -3,6 +3,7 @@ import DirectoryItem from '../directory-item/directory-item.component'
 import '../../App.scss'
 
 
+
 const Directory = () => {
   const categories = [
     {
@@ -36,7 +37,7 @@ const Directory = () => {
       route : 'shop/men'
     },
   ];
-
+  
   return (
     <div className="categories-container">
       {categories.map((category) => (

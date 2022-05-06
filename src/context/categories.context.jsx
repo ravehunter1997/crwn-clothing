@@ -1,4 +1,4 @@
-import { createContext,useEffect,useState } from "react";
+import React ,{ createContext,useEffect,useState } from "react";
 import { addCollectionAndDocuments, getCategoriesAndDocuments } from "../utils/firebase/firebase.utils.jsx";
 
 export const CategoriesContext = createContext({
