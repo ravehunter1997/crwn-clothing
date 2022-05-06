@@ -5,6 +5,7 @@ import { useContext } from "react";
 import { CartContext } from "../../context/cart.context";
 
 const ProductCard = ({ product }) => {
+  console.log(product)
   const { name, imageUrl, price } = product;
   const {addItemToCart} = useContext(CartContext);
   const addProductToCart =() =>addItemToCart(product);
